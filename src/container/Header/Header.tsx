@@ -13,11 +13,6 @@ const Header = (props: Props) => {
                 beatae at vitae illum qui non praesentium rem facere a
                 explicabo?
             </p>
-            <div className="hexagon">
-                <div className="content">
-                    <p>Ваш контент тут</p>
-                </div>
-            </div>
         </div>
     )
 }
