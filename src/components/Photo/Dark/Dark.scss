@@ -1,0 +1,118 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .dark-component {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        gap: 10px;
+        margin-top: 50px;
+        .dark-left {
+            width: 100%;
+            height: 100%;
+            background: url(../../../../public/assets/dark-left.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .dark-right {
+            width: 100%;
+            height: 100%;
+            background: url(../../../../public/assets/dark-right.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .dark-component {
+        display: flex;
+        height: 700px;
+        gap: 40px;
+        margin-top: 100px;
+        .dark-left,
+        .dark-right {
+            width: 50%;
+            background-repeat: no-repeat;
+            transition: ease-in-out 0.5s;
+            border: 1px solid white;
+        }
+        .dark-left {
+            background: url(../../../../public/assets/dark-left.jpg);
+            background-size: cover;
+        }
+        .dark-right {
+            background: url(../../../../public/assets/dark-right.jpg);
+            background-size: cover;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .dark-component {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        gap: 50px;
+        margin: 75px 0;
+        .dark-left,
+        .dark-right {
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            transition: ease-in-out 0.5s;
+        }
+        .dark-left {
+            background: url(../../../../public/assets/dark-left.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .dark-right {
+            background: url(../../../../public/assets/dark-right.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .dark-left:hover,
+        .dark-right:hover {
+            scale: 1.1;
+            border: 1px solid #c6927b;
+            transition: ease-in-out 0.5s;
+        }
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .dark-component {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        gap: 50px;
+        margin: 75px 0;
+        .dark-left,
+        .dark-right {
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            transition: ease-in-out 0.7s;
+        }
+        .dark-left {
+            background: url(../../../../public/assets/dark-left.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .dark-right {
+            background: url(../../../../public/assets/dark-right.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .dark-left:hover,
+        .dark-right:hover {
+            scale: 1.1;
+            border: 1px solid #c6927b;
+            transition: ease-in-out 0.7s;
+        }
+    }
+}

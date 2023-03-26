@@ -2,34 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.text-component {
-    background-color: inherit;
-    font-size: 50px;
-    position: relative;
-    border-radius: 0 !important;
+@media (min-width: 300px) {
+    .text-component {
+        background-color: inherit;
+        font-size: 50px;
+        position: relative;
+        border-radius: 0 !important;
+    }
+    .title {
+        color: #c6927b;
+        font-family: 'WindSong', cursive;
+        letter-spacing: 0.25rem;
+        width: 100%;
+        font-size: 30px;
+        line-height: 1.125;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    .subtitle {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+    .subtitle-text {
+        text-align: left;
+        color: rgba(255, 255, 255, 0.478);
+        font-family: 'Inter', sans-serif;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 200;
+    }
 }
-.title {
-    color: #c6927b;
-    font-family: 'WindSong', cursive;
-    letter-spacing: 0.25rem;
-    width: calc(100% + 0.25rem);
-    font-size: 1em;
-    line-height: 1.125;
-    font-weight: 400;
-    margin-top: 150px;
-}
-.subtitle {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
-.subtitle-text {
-    text-align: left;
-    color: rgba(255, 255, 255, 0.478);
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.025rem;
-    width: calc(100% + 0.025rem);
-    font-size: 0.5em;
-    line-height: 2;
-    font-weight: 200;
-}
+
+//tablet resolution
+
+//notebook resolution
