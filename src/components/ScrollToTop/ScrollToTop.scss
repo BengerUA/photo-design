@@ -1,0 +1,28 @@
+.to-top-btn {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #c6927b;
+    line-height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: ease-in-out 0.3s;
+    transform-origin: center;
+    text-align: center;
+    padding-top: 4px;
+    margin: 50px 0 150px 0;
+}
+.to-top-btn:hover {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #c6927b;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+    transform-origin: center;
+}

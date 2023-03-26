@@ -1,4 +1,56 @@
-.main {
-    background-color: yellow;
-    color: blue;
+.header-btn {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #c6927b;
+    line-height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: ease-in-out 0.3s;
+    transform-origin: center;
+    text-align: center;
+    padding-top: 4px;
+    margin: 50px 0 150px 0;
+}
+.header-btn:hover {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #c6927b;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+    transform-origin: center;
+}
+.target-component {
+    display: flex;
+    height: 700px;
+    gap: 40px;
+    .left-photo {
+        width: 50%;
+        background: url(../../../public/assets/left-photo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: ease-in-out 0.5s;
+    }
+    .right-photo {
+        width: 50%;
+        background: url(../../../public/assets/right-photo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: ease-in-out 0.5s;
+    }
+    .left-photo:hover,
+    .right-photo:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.5s;
+        cursor: pointer;
+        border: 1px solid #ba8670;
+    }
 }
